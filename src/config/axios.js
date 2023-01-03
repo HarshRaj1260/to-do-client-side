@@ -10,7 +10,7 @@ const axios = _axios.create({
     baseURL:
         import.meta.env.MODE != "development"
             ? "/api"
-            : "https://to-do-api.onrender.com/api",
+            : "https://localhost/api",
     timeout: 3000,
     headers: {
         Accept: "application/json",
